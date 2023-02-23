@@ -1,23 +1,19 @@
 import "./App.css";
-import Board from "./Components/Board/Board.js";
-import Sidebar from "./Components/SideBar/Sidebar";
+import React from "react";
+import { Heading } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className="app">
-      <div className="app_navbar">
-        <h2>Project Name</h2>
-      </div>
-      <div className="app_outer">
-        <div className="app_boards">
-          <Board />
-          <Board />
-          <Board />
-          <Board />
-          <Board />
-        </div>
-      </div>
-    </div>
+    // <div className="app">
+    <Heading
+      fontSize={{ base: "4xl", sm: "5xl", md: "6xl" }}
+      fontWeight="bold"
+      textAlign="center"
+      mt="4"
+    >
+      Welcome to Kanban
+    </Heading>
+    // </div>
   );
 }
 
