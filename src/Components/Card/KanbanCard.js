@@ -1,12 +1,13 @@
 import React from 'react'
-import { Card, CardHeader } from '@chakra-ui/react'
+import { Button, Card, CardHeader,CardBody} from '@chakra-ui/react'
 
 
-const KanbanCard = () => {
+const KanbanCard = (props) => {
   return (
-    <Card border={"1px solid"} width="60%">
+    <Card border={"1px solid"} width="60%" mx="5%" flexDirection={"column"} alignItems="flex-start">
         <CardHeader>
-            <p>Hello</p>
+            <Button height="20px" background={"green.200"} my="-20px">{props.priority}</Button>
+            <CardBody>h</CardBody>
         </CardHeader>
     </Card>
   )
