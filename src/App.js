@@ -18,7 +18,8 @@ function App() {
   return(
     // <DragDropContext>
     // <DragDropContext     
-    <div>
+    <div className="app" >
+      <Board/>
       <Board/>
     </div>     
 

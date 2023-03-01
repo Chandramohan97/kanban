@@ -5,7 +5,8 @@
   flex-direction: column;
   /* flex: 1; */
   background-color: #F7F8FC;
-  
+  display: flex;
+  flex-direction: row;
 }
 
 .app_navbar{
