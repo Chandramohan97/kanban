@@ -7,13 +7,12 @@ const TextArea = (props) => {
     <ChakraTextarea
      bg="white" 
      w="full" 
-     h="20%" 
+    //  h="20%" 
      border="1px" 
      my={4} 
      h="10vh" 
      borderRadius="none"
-     {...props}
-    />
+     >{props.text}</ChakraTextarea>
   )
 }
 
